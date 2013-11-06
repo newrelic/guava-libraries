@@ -5,7 +5,7 @@
   <parent>
     <groupId>com.google.guava</groupId>
     <artifactId>guava-parent</artifactId>
-    <version>14.0.1</version>
+    <version>14.0.3-newrelic</version>
   </parent>
   <artifactId>guava</artifactId>
   <name>Guava: Google Core Libraries for Java</name>
@@ -73,7 +73,7 @@
         <executions>
           <execution>
             <id>attach-sources</id>
-            <phase>post-integration-test</phase>
+            <!--<phase>post-integration-test</phase>-->
             <goals><goal>jar</goal></goals>
           </execution>
         </executions>
